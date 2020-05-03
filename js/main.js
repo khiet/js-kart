@@ -20,7 +20,7 @@ function startGarme() {
   let fps = 30;
   setInterval(callBoth, 1000 / fps);
   setupInput();
-  loadLevel(trackLevels[selectedTrackLevel - 1]);
+  loadLevel(trackLevels[2]);
 };
 
 function loadLevel(levelTrack) {
